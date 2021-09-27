@@ -1,7 +1,4 @@
-package Logic;
-
-import Logic.Config;
-import Logic.GameState;
+package org.example.Logic;
 
 public class StatesHistory {
     private int length;

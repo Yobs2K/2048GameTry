@@ -1,4 +1,4 @@
-package Logic.Assets;
+package org.example.Logic.Assets;
 
 public enum Move {
     UP ,

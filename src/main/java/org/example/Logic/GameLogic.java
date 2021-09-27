@@ -1,6 +1,6 @@
-package Logic;
+package org.example.Logic;
 
-import Logic.Assets.Move;
+import org.example.Logic.Assets.Move;
 
 public class GameLogic {
     private static GameLogic instance;

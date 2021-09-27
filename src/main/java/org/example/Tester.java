@@ -1,6 +1,7 @@
-import Logic.Assets.Move;
-import Logic.GameController;
-import Logic.GameLogic;
+package org.example;
+
+import org.example.Logic.Assets.Move;
+import org.example.Logic.GameController;
 
 public class Tester {
     public static void main(String[] args) {

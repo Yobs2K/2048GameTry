@@ -1,4 +1,4 @@
-package Logic;
+package org.example.Logic;
 
 class Config {
     private int width;

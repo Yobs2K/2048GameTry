@@ -1,4 +1,4 @@
-package Logic;
+package org.example.Logic;
 
 public class GameState {
     private int[][] matrix;
