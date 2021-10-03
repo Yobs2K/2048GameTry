@@ -13,7 +13,7 @@ public class Tester {
             int score = Game.getScore();
             int[][] matrix = Game.getMatrix();
             System.out.printf("score = %s\n", score);
-            ConsoleIO.printlnMatrix(matrix);
+            ConsoleIO.printGameMatrix(matrix);
             char c = ConsoleIO.getChar();
             switch (c) {
                 case 'a':

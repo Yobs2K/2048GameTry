@@ -25,4 +25,27 @@ public class ConsoleIO {
         String s = in.next();
         return s.charAt(0);
     }
+
+    private static void printGameArray(int [] array) {
+        System.out.print("|");
+        for (int i = 0; i < array.length; ++i) {
+            String s = switch (array[i]) {
+                case 0 -> " ";
+                default -> String.valueOf(array[i]);
+            };
+            System.out.printf("%2s|", s);
+        }
+    }
+
+    public static void printGameMatrix (int[][] matrix) {
+        for (int i = 0; i < matrix.length; ++i) {
+            printGameArray(matrix[i]);
+            System.out.println();
+        }
+    }
+
+    public static void printlnGameMatrix (int[][] matrix) {
+        printGameMatrix(matrix);
+        System.out.println();
+    }
 }
