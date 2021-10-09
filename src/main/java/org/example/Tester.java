@@ -32,7 +32,7 @@ public class Tester {
                     Game.undoMove();
                     break;
                 default:
-                    System.out.println("Еблан, ты чё написал");
+                    System.out.println("Неправильный ввод");
             }
         }
     }
